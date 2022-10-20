@@ -1,0 +1,28 @@
+p{
+    font-size: 24px;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+img{
+    width: 200px;
+    height: 200px;
+}
+
+.twitter{
+    width: 40px;
+    height: 40px;
+    filter: invert(200%) sepia(60%) saturate(0%) hue-rotate(86deg) brightness(200%) contrast(200%);
+}
+
+.ig{
+    width: 40px;
+    height: 40px;
+    filter: invert(200%) sepia(60%) saturate(0%) hue-rotate(86deg) brightness(200%) contrast(200%);
+}
+
+.pixiv{
+    width: 60px;
+    height: 30px;
+    filter: invert(200%) sepia(60%) saturate(0%) hue-rotate(86deg) brightness(200%) contrast(200%);
+}

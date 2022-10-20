@@ -7,16 +7,60 @@
 		<title>reveal.js</title>
 
 		<link rel="stylesheet" href="dist/reset.css">
+		<link rel="stylesheet" href="dist/Style.css">
+		<link rel="stylesheet" href="dist/Background.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/black.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		
+		<!-- Bootstrap -->
+		<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-Zenh87qX5JnK2Jl0vWa8Ck2rdkQ2Bzep5IDxbcnCeuOxjzrPF/et3URy9Bv1WTRi" crossorigin="anonymous">
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section>Slide 1</section>
+
+				<!--Home-->
+				<section class="Home" data-background-image="img/patternpad.png">
+
+					<div class="Background">
+						<h4>Pekomision</h4>
+							<p><img src="img/logo_peko_v2.png" alt="Logo"></p>
+							<p>Selamat datang ! Pekomision menyediakan jasa pembuatan ilustrasi digital, silahkan membaca terms of service terlebih dahulu sebelum memesan.</p>
+							<p>
+
+								  <div class="d-grid gap-2 col-6 mx-auto">
+									<button type="button" class="btn btn-outline-light" style="--bs-btn-padding-y: 5px; --bs-btn-padding-x: 20px; --bs-btn-font-size: 20px;">Terms Of Service </button>
+									<button type="button" class="btn btn-outline-light" style="--bs-btn-padding-y: 5px; --bs-btn-padding-x: 70px; --bs-btn-font-size: 20px;">Price List </button>
+									<button type="button" class="btn btn-outline-light" style="--bs-btn-padding-y: 5px; --bs-btn-padding-x: 70px; --bs-btn-font-size: 20px;">Order </button>
+								  </div>
+		
+							</p>	
+					</div>
+
+					  <p>
+
+						<div class="container ">
+							<div class="row">
+							  <div class="col">
+								<img src="img/twitter-logo-shape-svgrepo-com.svg" class="twitter">
+							  </div>
+							  <div class="col">
+								<img src="img/instagram-logo-svgrepo-com.svg" class="ig">
+							  </div>
+							  <div class="col">
+								<img src="img/Pixiv_logo.svg" class="pixiv">
+							  </div>
+							</div>
+						  </div>
+						  
+
+					</p>
+
+				</section>
+
 				<section>Slide 2
 						<aside class="notes">
 						<p>Some notes</p>
@@ -26,6 +70,7 @@
 						<p>and some more notes</p>
 					</aside>
 				</section>
+				
 			</div>
 		</div>
 
@@ -44,5 +89,7 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
+		<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-OERcA2EqjJCMA+/3y+gxIOqMEjwtxJY7qPCqsdltbNJuaOe923+mo//f6V8Qbsw3" crossorigin="anonymous"></script>
+
 	</body>
 </html>
