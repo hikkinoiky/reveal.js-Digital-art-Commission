@@ -2,6 +2,7 @@ p{
     font-size: 24px;
     padding-left: 20px;
     padding-right: 20px;
+    font-family: sans-serif;
 }
 
 img{
@@ -9,20 +10,34 @@ img{
     height: 200px;
 }
 
-.twitter{
+.Title{
+    text-shadow: 0 0 50px rgb(10, 10, 10);
+    font-size: 40px;
+}
+
+.Logo{
+    width: 150px;
+    height: 150px;
+}
+
+.logoSosmed:hover{
+    transform: scale(1.5);
+}
+
+.logoSosmed{
     width: 40px;
     height: 40px;
     filter: invert(200%) sepia(60%) saturate(0%) hue-rotate(86deg) brightness(200%) contrast(200%);
 }
 
-.ig{
-    width: 40px;
-    height: 40px;
-    filter: invert(200%) sepia(60%) saturate(0%) hue-rotate(86deg) brightness(200%) contrast(200%);
-}
-
-.pixiv{
+#pixiv{
     width: 60px;
     height: 30px;
     filter: invert(200%) sepia(60%) saturate(0%) hue-rotate(86deg) brightness(200%) contrast(200%);
 }
+
+#pixiv:hover{
+    transform: scale(1.5);
+}
+
+
