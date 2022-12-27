@@ -3,7 +3,7 @@ p{
     padding-left: 30px;
     padding-right: 30px;
     font-family: sans-serif;
-    color: rgb(46, 46, 46);
+    color: rgb(96, 118, 173);
     margin-bottom: -10px;
 }
 
@@ -16,7 +16,7 @@ img{
 .Title{
     font-size: 30px;
     font-style: bold;
-    color: rgb(70, 70, 70);
+    color: rgb(96, 118, 173);
     font-family: sans-serif;
     margin-bottom: -10;
 }
@@ -54,4 +54,7 @@ img{
     background-color: rgb(130, 163, 254) !important;
     color: aliceblue !important;
 }
+
+/* Price List*/
+
 
