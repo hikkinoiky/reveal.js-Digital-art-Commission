@@ -86,7 +86,8 @@
 							  </div>
 							</div>
 							<p>Headshot</p>
-						<p>Without Background	: Rp50.000<br>With Background	: Rp65.000
+						<p>Tanpa Background	: Rp50.000<br>Dengan Background	: Rp65.000
+							<br>Waktu Pengerjaan : 1 Minggu 
 						</p>
 						</div>
 					</section>
@@ -105,7 +106,8 @@
 							  </div>
 							</div>
 							<p>Bust-Up</p>
-							<p>Without Background	: Rp80.000<br>With Background	: Rp95.000
+							<p>Tanpa Background	: Rp80.000<br>Dengan Background	: Rp95.000
+								<br>Waktu Pengerjaan : 1 Minggu - 2 Minggu 
 							</p>
 						</div>
 					</section>
@@ -124,9 +126,10 @@
 							  </div>
 							</div>
 							<p>Half-Body</p>
-							<p>Without Background	: Rp105.000<br>With Background	: Rp120.000
+							<p>Tanpa Background	: Rp105.000<br>Dengan Background	: Rp120.000
+								<br>Waktu Pengerjaan : 2 Minggu - 3 Minggu 
 							</p>
-							<p>want to order ?, <a href="#/4" style="color: rgb(201, 160, 25);">klik here to order now!</a></p>
+							<p>want to order ? <a href="#/4" style="color: rgb(201, 160, 25);">klik here to order now!</a></p>
 						</div>
 					</section>
 
@@ -136,8 +139,39 @@
 					<p>Sample</p>
 				</section>
 
-				<section>
-					<p>Order</p>
+				<section data-background-image="img/patternpad.png">
+					<h1>Order</h1>
+
+					<form action="/my-handling-form-page" method="post" id="form" >
+						<div class="row" id="Name">
+						  <label for="name">Nama:</label>
+						  <input type="text" id="name" name="user_name" />
+						</div>
+					  
+						<div class="row" id="Email">
+						  <label for="mail">Email:</label>
+						  <input type="email" id="mail" name="user_email" />
+						</div>
+
+						<div class="row" id="Type">
+							<label for="Illustrasi" id="labelilus">Pilih jenis illustrasi :</label>
+							<select name="Illustrasi">
+							<option value="Headsho">Headshot</option>
+							<option value="Bust-Up">Bust-Up</option>
+							<option value="Half-Bod">Half-Body</option>
+							</select>
+						</div>
+					  
+						<div class="row" id="Additioanal">
+						  <label for="msg">Deskripsi Tambahan:</label>
+						  <textarea id="msg" name="user_message"></textarea>
+						</div>
+					  
+						<div class="button" id="orderbutton">
+						  <button type="submit" class="btn btn-primary">Pesan Sekarang</button>
+						</div>
+					  </form>
+
 				</section>
 				
 			</div>
