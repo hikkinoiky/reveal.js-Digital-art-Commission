@@ -84,6 +84,21 @@ h1{
     background-attachment: fixed;
 }
 
+
+
+/*sample*/
+
+#sample{
+  width: 400px;
+  height: 300px;
+  padding: 50px;
+  transition: transform .2s;
+}
+#sample:hover {
+  transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+}
+
+
 /* Order */
 form {
     margin: 0 auto;
