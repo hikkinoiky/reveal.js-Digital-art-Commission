@@ -179,43 +179,21 @@
 					<h1>Sample</h1>
 
 					<section>
-						<div class="container text-center" id="background">
-							<div class="row row-cols-3" id="gridsample">
-							  <div class="col" ><img src="img/ilustrasi/half-body/ollie.png" id="sample">
-								</div>
-							  <div class="col" ><img src="img/ilustrasi/half-body/pekoo.png" id="sample">
-								</div>
-							  <div class="col" ><img src="img/ilustrasi/half-body/risu.jpg" id="sample">
-								</div>
+						<div class="container" id="background">
+							<!-- Main view of our gallery -->
+							<div class="main_view">
+								<img src="img/ilustrasi/half-body/ollie.png" id="main" alt="IMAGE">
 							</div>
-							<p>Half-Body</p>
-						</div>
-					</section>
-					<section>
-						<div class="container text-center" id="background">
-							<div class="row row-cols-3">
-							  <div class="col" ><img src="img/ilustrasi/bust up/mio.jpg" id="sample">
-								</div>
-							  <div class="col" ><img src="img/ilustrasi/bust up/moona_new_model.png" id="sample">
-								</div>
-							  <div class="col" ><img src="img/ilustrasi/bust up/ookami mio.jpg" id="sample">
-								</div>
+					  
+							<!-- All images with side view -->
+							<div class="side_view">
+								<img src="img/ilustrasi/half-body/ollie.png" onclick="change(this.src)">
+								<img src="img/ilustrasi/half-body/pekoo.png" onclick="change(this.src)">
+								<img src="img/ilustrasi/half-body/risu.jpg" onclick="change(this.src)">
+								<img src="img/ilustrasi/bust up/mio.jpg" onclick="change(this.src)">
+								<img src="img/ilustrasi/bust up/moona_new_model.png" onclick="change(this.src)">
+								<img src="img/ilustrasi/headshot/Kanata.jpg" onclick="change(this.src)">
 							</div>
-							<p>Bust-Up</p>
-						</div>
-					</section>
-					<section>
-						<div class="container text-center" id="background">
-							<div class="row row-cols-3">
-							  <div class="col" ><img src="img/ilustrasi/headshot/ayame.png" id="sample">
-								</div>
-							  <div class="col" ><img src="img/ilustrasi/headshot/guanyu.png" id="sample">
-								</div>
-							  <div class="col" ><img src="img/ilustrasi/headshot/Kanata.jpg" id="sample">
-								</div>
-							</div>
-							<p>Headshot</p>
-						</div>
 					</section>
 
 				</section>
@@ -260,6 +238,7 @@
 		</div>
 
 		<script src="dist/reveal.js"></script>
+		<script src="dist/Style.js"></script>
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>

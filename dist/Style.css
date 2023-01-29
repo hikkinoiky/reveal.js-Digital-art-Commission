@@ -69,6 +69,7 @@ img{
   align-content: center;
   margin-top: 40px !important;
   font-size: 15px !important;
+  width: 600px !important;
 }
 
 /* Price List*/
@@ -88,14 +89,42 @@ h1{
 
 /*sample*/
 
-#sample{
-  width: 400px;
-  height: 300px;
-  padding: 50px;
-  transition: transform .2s;
+.container {
+  margin: 0 auto;
+  width: 90%;
 }
-#sample:hover {
-  transform: scale(3); /* (150% zoom - Note: if the zoom is too large, it will go outside of the viewport) */
+
+.main_view {
+  width: 400px;
+  height: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  transition: transform .2s
+}
+
+.main_view:hover{
+  margin: auto;
+  transform: scale(1.5);
+}
+
+.main_view img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.side_view {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+}
+
+.side_view img {
+  width: 9rem;
+  height: 7rem;
+  object-fit: cover;
+  cursor: pointer;
+  margin: 0.5rem;
 }
 
 
